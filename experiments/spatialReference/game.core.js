@@ -58,7 +58,7 @@ var game_core = function(options){
   this.roundNum = -1;
 
   // How many rounds do we want people to complete?
-  this.numRounds = 50;
+  this.numRounds = 30;
 
   // This will be populated with the tangram set
   this.trialInfo = {};
@@ -69,7 +69,7 @@ var game_core = function(options){
     this.id = options.id;
     this.expName = options.expName;
     this.player_count = options.player_count;
-    this.trialList = _.shuffle(TRIALS_OBJECT_FROM_JSON);
+    this.trialList = _.first(_.shuffle(TRIALS_OBJECT_FROM_JSON), this.numRounds);
     this.data = {
       id : this.id.slice(0,6),
       trials : [],
