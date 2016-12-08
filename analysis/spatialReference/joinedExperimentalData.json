@@ -1322,7 +1322,15 @@
       "x": 488,
       "y": 204
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975357016,
+        "roundNum": 1,
+        "sender": "speaker",
+        "contents": "towards the right end of the red  about 1/3 to the left"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1355,7 +1363,36 @@
       "x": 83,
       "y": 118
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975383595,
+        "roundNum": 2,
+        "sender": "speaker",
+        "contents": "nice"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975395415,
+        "roundNum": 2,
+        "sender": "listener",
+        "contents": "lol"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975417679,
+        "roundNum": 2,
+        "sender": "speaker",
+        "contents": "the red   1/3 from the left towards the bottom"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975435398,
+        "roundNum": 2,
+        "sender": "speaker",
+        "contents": "inside the rectangle"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1388,7 +1425,15 @@
       "x": 372,
       "y": 240
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975474052,
+        "roundNum": 3,
+        "sender": "speaker",
+        "contents": "inside the blue  1/3 from the right near the top"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1421,7 +1466,22 @@
       "x": 259,
       "y": 113
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975527302,
+        "roundNum": 4,
+        "sender": "speaker",
+        "contents": "outside the right of the blue  about 1/3 of the square away from it"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975536321,
+        "roundNum": 4,
+        "sender": "speaker",
+        "contents": "near the middle"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1454,7 +1514,22 @@
       "x": 60,
       "y": 175
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975577206,
+        "roundNum": 5,
+        "sender": "speaker",
+        "contents": "bottom left of the red   about the width of the rectangle"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975583576,
+        "roundNum": 5,
+        "sender": "speaker",
+        "contents": "outside"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1487,7 +1562,22 @@
       "x": 370,
       "y": 170
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975619011,
+        "roundNum": 6,
+        "sender": "speaker",
+        "contents": "inside the top left corner  1/4 down"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975622193,
+        "roundNum": 6,
+        "sender": "speaker",
+        "contents": "of the blue"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1520,7 +1610,22 @@
       "x": 318,
       "y": 191
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975662310,
+        "roundNum": 7,
+        "sender": "speaker",
+        "contents": "ok  doing this wrong   sorry   got it now"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975690646,
+        "roundNum": 7,
+        "sender": "speaker",
+        "contents": "the lily is inside the blue  top 1/3 towards the middle"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1553,7 +1658,43 @@
       "x": 350,
       "y": 226
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975710148,
+        "roundNum": 8,
+        "sender": "listener",
+        "contents": "that was my bad lol"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975725472,
+        "roundNum": 8,
+        "sender": "speaker",
+        "contents": "yeah  no problem  I was confused for a bit too"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975741125,
+        "roundNum": 8,
+        "sender": "speaker",
+        "contents": "this ones easy  middle of the left side of the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975780660,
+        "roundNum": 8,
+        "sender": "listener",
+        "contents": "middle of the left side? meaning its in the middle and to the left?"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975813598,
+        "roundNum": 8,
+        "sender": "speaker",
+        "contents": "the perimeter   left and in the middle  directly on the side"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1586,7 +1727,22 @@
       "x": 398,
       "y": 80
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975834421,
+        "roundNum": 9,
+        "sender": "speaker",
+        "contents": "inside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975854937,
+        "roundNum": 9,
+        "sender": "speaker",
+        "contents": "top 1/3   1/3 from the left side"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1619,7 +1775,36 @@
       "x": 209,
       "y": 360
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975871639,
+        "roundNum": 10,
+        "sender": "speaker",
+        "contents": "direct hit   lol"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975876090,
+        "roundNum": 10,
+        "sender": "listener",
+        "contents": "yes!"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975883179,
+        "roundNum": 10,
+        "sender": "speaker",
+        "contents": "red"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975907308,
+        "roundNum": 10,
+        "sender": "speaker",
+        "contents": "bottom perimeter line  1/4 from the left"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1652,7 +1837,36 @@
       "x": 250,
       "y": 292
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975929436,
+        "roundNum": 11,
+        "sender": "speaker",
+        "contents": "hit!!"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975934115,
+        "roundNum": 11,
+        "sender": "listener",
+        "contents": "you're getting good lol"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975944334,
+        "roundNum": 11,
+        "sender": "speaker",
+        "contents": "outside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975961783,
+        "roundNum": 11,
+        "sender": "speaker",
+        "contents": "1/4 from the right  full width down"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1685,7 +1899,36 @@
       "x": 495,
       "y": 195
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480975988537,
+        "roundNum": 12,
+        "sender": "speaker",
+        "contents": "direct hit  lol"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480975993550,
+        "roundNum": 12,
+        "sender": "listener",
+        "contents": "amazing"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976009510,
+        "roundNum": 12,
+        "sender": "speaker",
+        "contents": "outside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976032243,
+        "roundNum": 12,
+        "sender": "speaker",
+        "contents": "1/3 to the right  1/3 down from the top"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1718,7 +1961,36 @@
       "x": 381,
       "y": 143
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976067979,
+        "roundNum": 13,
+        "sender": "speaker",
+        "contents": "direct hit again   we're awesome!!"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976082887,
+        "roundNum": 13,
+        "sender": "listener",
+        "contents": "yes hope we dont jinx ourselves"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976086495,
+        "roundNum": 13,
+        "sender": "speaker",
+        "contents": "inside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976102348,
+        "roundNum": 13,
+        "sender": "speaker",
+        "contents": "1/3 from the top  in the middle"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1751,7 +2023,29 @@
       "x": 367,
       "y": 203
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976130274,
+        "roundNum": 14,
+        "sender": "speaker",
+        "contents": "outside the red"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976150258,
+        "roundNum": 14,
+        "sender": "speaker",
+        "contents": "left side about 1/4"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976155458,
+        "roundNum": 14,
+        "sender": "speaker",
+        "contents": "middle of the box"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1784,7 +2078,22 @@
       "x": 385,
       "y": 199
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976201450,
+        "roundNum": 15,
+        "sender": "speaker",
+        "contents": "right on the top perimeter of the red"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976207511,
+        "roundNum": 15,
+        "sender": "speaker",
+        "contents": "1/3 from the left"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1817,7 +2126,22 @@
       "x": 314,
       "y": 83
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976247986,
+        "roundNum": 16,
+        "sender": "speaker",
+        "contents": "just outside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976266454,
+        "roundNum": 16,
+        "sender": "speaker",
+        "contents": "top left corner more on the left side"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1850,7 +2174,29 @@
       "x": 41,
       "y": 216
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976296305,
+        "roundNum": 17,
+        "sender": "speaker",
+        "contents": "outside the red"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976319663,
+        "roundNum": 17,
+        "sender": "speaker",
+        "contents": "a little bit more than the full width down"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976342083,
+        "roundNum": 17,
+        "sender": "speaker",
+        "contents": "just a bit left of the left side"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1883,7 +2229,29 @@
       "x": 264,
       "y": 151
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976358714,
+        "roundNum": 18,
+        "sender": "speaker",
+        "contents": "inside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976369508,
+        "roundNum": 18,
+        "sender": "speaker",
+        "contents": "1/3 from the top"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976380186,
+        "roundNum": 18,
+        "sender": "speaker",
+        "contents": "directly on the right side"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1916,7 +2284,29 @@
       "x": 341,
       "y": 94
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976396757,
+        "roundNum": 19,
+        "sender": "speaker",
+        "contents": "inside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976405846,
+        "roundNum": 19,
+        "sender": "speaker",
+        "contents": "1/4 from the left"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976417972,
+        "roundNum": 19,
+        "sender": "speaker",
+        "contents": "just a bit down from the top"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1949,7 +2339,29 @@
       "x": 92,
       "y": 207
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976438244,
+        "roundNum": 20,
+        "sender": "speaker",
+        "contents": "inside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976460076,
+        "roundNum": 20,
+        "sender": "speaker",
+        "contents": "just a bit down from center"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976479251,
+        "roundNum": 20,
+        "sender": "speaker",
+        "contents": "the center of the rectangle"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -1982,7 +2394,22 @@
       "x": 164,
       "y": 58
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976494263,
+        "roundNum": 21,
+        "sender": "speaker",
+        "contents": "inside the red"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976514270,
+        "roundNum": 21,
+        "sender": "speaker",
+        "contents": "top left corner  but just a bit to the right"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2015,7 +2442,50 @@
       "x": 554,
       "y": 147
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976536213,
+        "roundNum": 22,
+        "sender": "listener",
+        "contents": "i misunderstood a bit lmao"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976549584,
+        "roundNum": 22,
+        "sender": "speaker",
+        "contents": "missed on that one  sorry  my fault   I should have been more specific"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976559892,
+        "roundNum": 22,
+        "sender": "listener",
+        "contents": "its ok we're doing pretty good"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976569631,
+        "roundNum": 22,
+        "sender": "speaker",
+        "contents": "outside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976597669,
+        "roundNum": 22,
+        "sender": "speaker",
+        "contents": "a bit up from the middle  (bit works this time lol)"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976611009,
+        "roundNum": 22,
+        "sender": "speaker",
+        "contents": "about 1/4 from the left"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2048,7 +2518,43 @@
       "x": 376,
       "y": 306
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976621774,
+        "roundNum": 23,
+        "sender": "listener",
+        "contents": "fuck my bad"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976637400,
+        "roundNum": 23,
+        "sender": "speaker",
+        "contents": "no worries   this is a bit tough at times  :)"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976660636,
+        "roundNum": 23,
+        "sender": "speaker",
+        "contents": "directly on the top perimeter"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976667563,
+        "roundNum": 23,
+        "sender": "speaker",
+        "contents": "1/3 from the right"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976677227,
+        "roundNum": 23,
+        "sender": "speaker",
+        "contents": "blue rectangle"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2081,7 +2587,29 @@
       "x": 222,
       "y": 96
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976711538,
+        "roundNum": 24,
+        "sender": "speaker",
+        "contents": "blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976720832,
+        "roundNum": 24,
+        "sender": "speaker",
+        "contents": "directly on the right perimeter"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976736136,
+        "roundNum": 24,
+        "sender": "speaker",
+        "contents": "1/4 from the top"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2114,7 +2642,43 @@
       "x": 117,
       "y": 172
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976767191,
+        "roundNum": 25,
+        "sender": "speaker",
+        "contents": "ok  this ones a bitch but here it goes"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976780036,
+        "roundNum": 25,
+        "sender": "speaker",
+        "contents": "way outside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976796150,
+        "roundNum": 25,
+        "sender": "speaker",
+        "contents": "1/4 from the bottom"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976806522,
+        "roundNum": 25,
+        "sender": "speaker",
+        "contents": "full length to the left"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976818515,
+        "roundNum": 25,
+        "sender": "speaker",
+        "contents": "up from bottom"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2147,7 +2711,43 @@
       "x": 476,
       "y": 206
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976832084,
+        "roundNum": 26,
+        "sender": "speaker",
+        "contents": "pretty close"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976834450,
+        "roundNum": 26,
+        "sender": "listener",
+        "contents": "aww we tried lol"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976848695,
+        "roundNum": 26,
+        "sender": "speaker",
+        "contents": "inside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976858910,
+        "roundNum": 26,
+        "sender": "speaker",
+        "contents": "1/3 up from bottom"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976866389,
+        "roundNum": 26,
+        "sender": "speaker",
+        "contents": "1/3 in from left"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2180,7 +2780,64 @@
       "x": 364,
       "y": 192
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976895553,
+        "roundNum": 27,
+        "sender": "speaker",
+        "contents": "direct hit"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976905794,
+        "roundNum": 27,
+        "sender": "speaker",
+        "contents": "can you see the hits?"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976909914,
+        "roundNum": 27,
+        "sender": "listener",
+        "contents": "yes"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976921128,
+        "roundNum": 27,
+        "sender": "speaker",
+        "contents": "ahhh ok  no need for commentary then  lol"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976925965,
+        "roundNum": 27,
+        "sender": "listener",
+        "contents": "lmao"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976930038,
+        "roundNum": 27,
+        "sender": "speaker",
+        "contents": "inside the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976942247,
+        "roundNum": 27,
+        "sender": "speaker",
+        "contents": "1/3 down from top"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976950514,
+        "roundNum": 27,
+        "sender": "speaker",
+        "contents": "1/3 in from left"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2213,7 +2870,22 @@
       "x": 358,
       "y": 221
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480976977053,
+        "roundNum": 28,
+        "sender": "speaker",
+        "contents": "inside the blue  1/3 up from bottom"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480976985482,
+        "roundNum": 28,
+        "sender": "speaker",
+        "contents": "1/4 in from left"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2246,7 +2918,36 @@
       "x": 236,
       "y": 297
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480977007375,
+        "roundNum": 29,
+        "sender": "speaker",
+        "contents": "in between red and blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480977027774,
+        "roundNum": 29,
+        "sender": "speaker",
+        "contents": "1/4 in from the right side of the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480977048437,
+        "roundNum": 29,
+        "sender": "listener",
+        "contents": "closer to red or blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480977060434,
+        "roundNum": 29,
+        "sender": "speaker",
+        "contents": "basically right in the middle of them"
+      }
+    ]
   },
   {
     "gameid": "7689-8",
@@ -2279,7 +2980,36 @@
       "x": 126,
       "y": 138
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "7689-8",
+        "time": 1480977099412,
+        "roundNum": 30,
+        "sender": "speaker",
+        "contents": "way to the left of the blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480977108012,
+        "roundNum": 30,
+        "sender": "listener",
+        "contents": "oh man lol"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480977108105,
+        "roundNum": 30,
+        "sender": "speaker",
+        "contents": "middle of blue"
+      },
+      {
+        "gameid": "7689-8",
+        "time": 1480977122825,
+        "roundNum": 30,
+        "sender": "speaker",
+        "contents": "full length to the left"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2312,7 +3042,15 @@
       "x": 316,
       "y": 169
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480976787200,
+        "roundNum": 1,
+        "sender": "speaker",
+        "contents": "The lily is inside the red box, on the left hand side halfway between the top and bottom of the box."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2345,7 +3083,15 @@
       "x": 188,
       "y": 66
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480976836330,
+        "roundNum": 2,
+        "sender": "speaker",
+        "contents": "The lily is located on the top right corner of the red box."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2378,7 +3124,15 @@
       "x": 161,
       "y": 62
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480976891071,
+        "roundNum": 3,
+        "sender": "speaker",
+        "contents": "The lily is inside the red box at the top left corner"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2411,7 +3165,15 @@
       "x": 355,
       "y": 194
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480976968403,
+        "roundNum": 4,
+        "sender": "speaker",
+        "contents": "The lily is inside the blue box about 1/4 inch down and to the right of the upper left corner"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2444,7 +3206,15 @@
       "x": 117,
       "y": 95
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977003350,
+        "roundNum": 5,
+        "sender": "speaker",
+        "contents": "The lily is in the center of the red box."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2477,7 +3247,15 @@
       "x": 258,
       "y": 118
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977064202,
+        "roundNum": 6,
+        "sender": "speaker",
+        "contents": "The lily is about 1/2 inch outside of the right side blue box."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2510,7 +3288,15 @@
       "x": 199,
       "y": 238
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977128136,
+        "roundNum": 7,
+        "sender": "speaker",
+        "contents": "The lily is about 1/4 inch below the lower right corner of the blue box.  A tad to the left~~~"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2543,7 +3329,15 @@
       "x": 232,
       "y": 289
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977166664,
+        "roundNum": 8,
+        "sender": "speaker",
+        "contents": "The lily is on the lower edge of the red box, about in the center of the edge"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2576,7 +3370,15 @@
       "x": 390,
       "y": 306
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977216669,
+        "roundNum": 9,
+        "sender": "speaker",
+        "contents": "The lily in on the upper edge of the blue box.  Located directly below the right hand edge of the red box~~~"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2609,7 +3411,15 @@
       "x": 223,
       "y": 83
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977269846,
+        "roundNum": 10,
+        "sender": "speaker",
+        "contents": "The lily is on the right edge of the blue box, about 1/4 inch below the top corner"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2642,7 +3452,15 @@
       "x": 545,
       "y": 307
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977306971,
+        "roundNum": 11,
+        "sender": "speaker",
+        "contents": "The lily is in the top 1/3rd of the red box"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2675,7 +3493,15 @@
       "x": 172,
       "y": 340
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977351893,
+        "roundNum": 12,
+        "sender": "speaker",
+        "contents": "The lily is centered on the bottom edge of the red box"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2708,7 +3534,15 @@
       "x": 152,
       "y": 125
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977398552,
+        "roundNum": 13,
+        "sender": "speaker",
+        "contents": "The lily is on the left edge of the red box, just a little above halfway up"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2741,7 +3575,15 @@
       "x": 517,
       "y": 166
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977477113,
+        "roundNum": 14,
+        "sender": "speaker",
+        "contents": "The lily is about 1/4 inch above the red box and about 1 inch from the right side."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2774,7 +3616,15 @@
       "x": 405,
       "y": 206
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977533318,
+        "roundNum": 15,
+        "sender": "speaker",
+        "contents": "The lily is just outside the left edge of the red box, about in the middle."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2807,7 +3657,15 @@
       "x": 226,
       "y": 256
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977567145,
+        "roundNum": 16,
+        "sender": "speaker",
+        "contents": "The lily is in the lower left corner of the red box."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2840,7 +3698,15 @@
       "x": 490,
       "y": 284
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977596347,
+        "roundNum": 17,
+        "sender": "speaker",
+        "contents": "The lily is in the upper left quarter of the blue box."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2873,7 +3739,15 @@
       "x": 292,
       "y": 257
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977632008,
+        "roundNum": 18,
+        "sender": "speaker",
+        "contents": "The lily in on the upper edge of the red box.  About 1 inch from the upper left corner~~~"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2906,7 +3780,15 @@
       "x": 248,
       "y": 166
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977683934,
+        "roundNum": 19,
+        "sender": "speaker",
+        "contents": "The lily is just inside of the right edge of the blue box, about 1 inch down from the upper right corner"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2939,7 +3821,15 @@
       "x": 235,
       "y": 259
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977759948,
+        "roundNum": 20,
+        "sender": "speaker",
+        "contents": "The lily is below the blue box.  About an inch to the left of the lower right corner and 1 1/2 inch below the box"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -2972,7 +3862,15 @@
       "x": 494,
       "y": 178
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977833396,
+        "roundNum": 21,
+        "sender": "speaker",
+        "contents": "The lily is to the right of the blue box, about 1/3rd of the way down and 1 inch further right"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3005,7 +3903,15 @@
       "x": 239,
       "y": 98
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977908637,
+        "roundNum": 22,
+        "sender": "speaker",
+        "contents": "The lily is to the right of the blue box, about 1/3rd of the way down and 1/4 inch to the right"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3038,7 +3944,15 @@
       "x": 246,
       "y": 297
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480977982233,
+        "roundNum": 23,
+        "sender": "speaker",
+        "contents": "The lily is inbetween the red and blue boxes, exactly in the center of the two colors."
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3071,7 +3985,15 @@
       "x": 398,
       "y": 253
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480978046705,
+        "roundNum": 24,
+        "sender": "speaker",
+        "contents": "The lily is near to top right inside the blue box, about 1/2 inch from the right side"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3104,7 +4026,15 @@
       "x": 112,
       "y": 283
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480978120069,
+        "roundNum": 25,
+        "sender": "speaker",
+        "contents": "The lily is inside the blue box, a little in from the left edge, about 1/4 of the way up from the bottom left corner"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3137,7 +4067,15 @@
       "x": 180,
       "y": 363
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480978165559,
+        "roundNum": 26,
+        "sender": "speaker",
+        "contents": "The lily in on the bottom edge of the red box, a little to the right of the lower left corner"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3170,7 +4108,15 @@
       "x": 222,
       "y": 121
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480978209235,
+        "roundNum": 27,
+        "sender": "speaker",
+        "contents": "The lily is centered in the large white area to the left of the blue box"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3203,7 +4149,15 @@
       "x": 310,
       "y": 189
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480978260902,
+        "roundNum": 28,
+        "sender": "speaker",
+        "contents": "The lily is on the left edge of the red box, about halfway up"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3236,7 +4190,15 @@
       "x": 311,
       "y": 77
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480978304569,
+        "roundNum": 29,
+        "sender": "speaker",
+        "contents": "The lily is just outside the blue box, just touching the upper left outside corner"
+      }
+    ]
   },
   {
     "gameid": "1303-4",
@@ -3269,7 +4231,15 @@
       "x": 344,
       "y": 94
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "1303-4",
+        "time": 1480978378146,
+        "roundNum": 30,
+        "sender": "speaker",
+        "contents": "The lily is inside of the blue box, about 1/4 inch to the right of the upper left corner"
+      }
+    ]
   },
   {
     "gameid": "4791-d",
@@ -7517,7 +8487,36 @@
       "x": 319,
       "y": 184
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480978340460,
+        "roundNum": 1,
+        "sender": "listener",
+        "contents": "Hello."
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978358012,
+        "roundNum": 1,
+        "sender": "speaker",
+        "contents": "Hello. Let's do this craziness, I guess~~~ : ) "
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978364442,
+        "roundNum": 1,
+        "sender": "listener",
+        "contents": "Sounds like a plan!"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978387579,
+        "roundNum": 1,
+        "sender": "speaker",
+        "contents": "The lily is stuck to the left wall of the red building right in the center."
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7550,7 +8549,22 @@
       "x": 421,
       "y": 193
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480978432015,
+        "roundNum": 2,
+        "sender": "listener",
+        "contents": "darn, close"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978458734,
+        "roundNum": 2,
+        "sender": "speaker",
+        "contents": "Imagine a center line dividing the red building in half vertically. The lily is stuck to the top wall just to the left of that line~~~"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7583,7 +8597,29 @@
       "x": 385,
       "y": 173
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480978505580,
+        "roundNum": 3,
+        "sender": "listener",
+        "contents": "nice descriptions :)"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978513597,
+        "roundNum": 3,
+        "sender": "speaker",
+        "contents": "Doing my best.  Thank you~~~"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978541741,
+        "roundNum": 3,
+        "sender": "speaker",
+        "contents": "Divide the blue building in half horizontally. The lily is inside it in the center of the upper room~~~"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7616,7 +8652,15 @@
       "x": 253,
       "y": 182
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480978621973,
+        "roundNum": 4,
+        "sender": "speaker",
+        "contents": "Divide the blue building in half horizontally. The lily is in the upper room stuck to the center of that right-hand wall~~~ "
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7649,7 +8693,29 @@
       "x": 193,
       "y": 231
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480978673789,
+        "roundNum": 5,
+        "sender": "speaker",
+        "contents": "(I don't even know if we're looking down at this, like a bird's eye view, or if they're just lazy about drawing buildings. Meh~~~"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978695991,
+        "roundNum": 5,
+        "sender": "listener",
+        "contents": "yeah when it said I was seeing a map I was a bit confused"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978764752,
+        "roundNum": 5,
+        "sender": "speaker",
+        "contents": "Follow the right-hand wall of the blue building down.  Keep going into the white space below it for about as long as the lily is wide, then to your left for about as long as the lily is wide~~~ It's in that white space~~~"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7682,7 +8748,15 @@
       "x": 172,
       "y": 332
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480978834187,
+        "roundNum": 6,
+        "sender": "speaker",
+        "contents": "It's right in the middle of the bottom wall of the red building."
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7715,7 +8789,15 @@
       "x": 448,
       "y": 144
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480978897299,
+        "roundNum": 7,
+        "sender": "speaker",
+        "contents": "Sitting on top of the blue building right above the right-hand wall"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7748,7 +8830,50 @@
       "x": 371,
       "y": 272
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480978931475,
+        "roundNum": 8,
+        "sender": "listener",
+        "contents": "darn I only have 13 minutes to complete the HIT, I had to go afk after accepting :\\"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978952867,
+        "roundNum": 8,
+        "sender": "speaker",
+        "contents": "You want to keep trying or give up and try to get it again later?"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978973953,
+        "roundNum": 8,
+        "sender": "listener",
+        "contents": "nah, we'll keep going"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480978997554,
+        "roundNum": 8,
+        "sender": "listener",
+        "contents": "I just emailed the requester, he'll make a new HIT for me. All is well!"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979008859,
+        "roundNum": 8,
+        "sender": "speaker",
+        "contents": "Divide the red building in half horizontally. Lily is right below the middle of the upper room's left hand wall"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979016046,
+        "roundNum": 8,
+        "sender": "speaker",
+        "contents": "Good deal"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7781,7 +8906,15 @@
       "x": 241,
       "y": 280
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979088513,
+        "roundNum": 9,
+        "sender": "speaker",
+        "contents": "Divide the red building vertically in half, lily along the bottom wall of the right-hand room close to the dividing line"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7814,7 +8947,15 @@
       "x": 218,
       "y": 84
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979129894,
+        "roundNum": 10,
+        "sender": "speaker",
+        "contents": "Divide blue building horizontally in half, lily is in the middle of the upper room's right hand wall"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7847,7 +8988,36 @@
       "x": 137,
       "y": 120
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979188042,
+        "roundNum": 11,
+        "sender": "speaker",
+        "contents": "Divide the blue building horizontally in half.  Follow that dividing line out into the white space to the left for about as long as the red building is~~~ it's there in the white space"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979218254,
+        "roundNum": 11,
+        "sender": "listener",
+        "contents": "so close to the circle kinda?"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979241192,
+        "roundNum": 11,
+        "sender": "speaker",
+        "contents": "Oh ffs are we both seeing that circle?  (sigh) I'm so sorry.  Click the center right side of the circle"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979249590,
+        "roundNum": 11,
+        "sender": "listener",
+        "contents": "haha it's ok"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7880,7 +9050,15 @@
       "x": 489,
       "y": 310
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979296282,
+        "roundNum": 12,
+        "sender": "speaker",
+        "contents": "Divide the blue building in half vertically.  Follow that dividing line down for about a lily-and-a-half into the white space~~~"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7913,7 +9091,15 @@
       "x": 289,
       "y": 86
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979335392,
+        "roundNum": 13,
+        "sender": "speaker",
+        "contents": "Divide the circle into quarters and click the upper right quarter."
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7946,7 +9132,43 @@
       "x": 394,
       "y": 299
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979362471,
+        "roundNum": 14,
+        "sender": "listener",
+        "contents": "crap"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979372887,
+        "roundNum": 14,
+        "sender": "speaker",
+        "contents": "My fault.  My OTHER right, which would be the left~~~"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979391065,
+        "roundNum": 14,
+        "sender": "listener",
+        "contents": "lol no worries, it looks like it gave us credit anyways for the bonus"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979407968,
+        "roundNum": 14,
+        "sender": "speaker",
+        "contents": "Follow the right hand wall down to the wall of the blue building, it's right there"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979421531,
+        "roundNum": 14,
+        "sender": "speaker",
+        "contents": "(follow the right hand wall of the red building down)"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -7979,7 +9201,15 @@
       "x": 215,
       "y": 321
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979464548,
+        "roundNum": 15,
+        "sender": "speaker",
+        "contents": "Divide the blue building in half vertically and click right where that line would touch the top wall of the blue buildling"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8012,7 +9242,15 @@
       "x": 404,
       "y": 143
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979524265,
+        "roundNum": 16,
+        "sender": "speaker",
+        "contents": "Divide the circle into quarters, click the outside wall of the upper left quarter.  Yes, really the left this time"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8045,7 +9283,15 @@
       "x": 372,
       "y": 168
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979572800,
+        "roundNum": 17,
+        "sender": "speaker",
+        "contents": "Follow the topmost point of the circle to the right into the blue building for about two lillies wide"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8078,7 +9324,43 @@
       "x": 180,
       "y": 68
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979604142,
+        "roundNum": 18,
+        "sender": "listener",
+        "contents": "darn only partial bonus"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979605389,
+        "roundNum": 18,
+        "sender": "speaker",
+        "contents": "Damn it. Did they give us ALMOST a penny for that?"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979612397,
+        "roundNum": 18,
+        "sender": "listener",
+        "contents": "I think so.~~~~~~lol"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979617938,
+        "roundNum": 18,
+        "sender": "speaker",
+        "contents": "Wow. Just wow~~~ "
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979623654,
+        "roundNum": 18,
+        "sender": "speaker",
+        "contents": "Upper right corner of the red building."
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8111,7 +9393,15 @@
       "x": 103,
       "y": 287
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979661636,
+        "roundNum": 19,
+        "sender": "speaker",
+        "contents": "About one lily above the bottom left corner of the blue building, inside it, not quite touching the wall"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8144,7 +9434,15 @@
       "x": 434,
       "y": 191
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979708814,
+        "roundNum": 20,
+        "sender": "speaker",
+        "contents": "Divide the red bldg in half horizontally, click where that line would touch the right hand wall"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8177,7 +9475,15 @@
       "x": 425,
       "y": 119
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979748131,
+        "roundNum": 21,
+        "sender": "speaker",
+        "contents": "Divide the blue building into quarters. Click the inner corner of the upper left hand room~~~"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8210,7 +9516,15 @@
       "x": 393,
       "y": 247
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979794625,
+        "roundNum": 22,
+        "sender": "speaker",
+        "contents": "Click outside the red building on the lower right-hand side, just touching the wall"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8243,7 +9557,22 @@
       "x": 285,
       "y": 320
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979850112,
+        "roundNum": 23,
+        "sender": "speaker",
+        "contents": "Outside the bottom right corner of the red building, about one lily above the bottom wall"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480979859245,
+        "roundNum": 23,
+        "sender": "speaker",
+        "contents": "touching the wall"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8276,7 +9605,15 @@
       "x": 225,
       "y": 256
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979877220,
+        "roundNum": 24,
+        "sender": "speaker",
+        "contents": "Divide the circle into quarters, click the outside edge of the bottom left quarter"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8309,7 +9646,15 @@
       "x": 201,
       "y": 89
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979928051,
+        "roundNum": 25,
+        "sender": "speaker",
+        "contents": "Divide circle into quarters, click center of the bottom right quarter"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8342,7 +9687,15 @@
       "x": 341,
       "y": 179
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979972846,
+        "roundNum": 26,
+        "sender": "speaker",
+        "contents": "Divide blue bldg into quarters, click center of upper left hand room"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8375,7 +9728,15 @@
       "x": 469,
       "y": 218
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480979998337,
+        "roundNum": 27,
+        "sender": "speaker",
+        "contents": "Divide circle into quarters, click wall of bottom right hand quarter"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8408,7 +9769,15 @@
       "x": 323,
       "y": 89
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480980030642,
+        "roundNum": 28,
+        "sender": "speaker",
+        "contents": "Click upper left corner of the blue building"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8441,7 +9810,22 @@
       "x": 422,
       "y": 123
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480980072639,
+        "roundNum": 29,
+        "sender": "speaker",
+        "contents": ".~~~~~~~~~how did that not count, you were TOUCHING it~~~   (sigh) Click the center of the upper wall of the blue building"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480980089402,
+        "roundNum": 29,
+        "sender": "listener",
+        "contents": "yeah that was pretty strange"
+      }
+    ]
   },
   {
     "gameid": "3402-4",
@@ -8474,7 +9858,29 @@
       "x": 256,
       "y": 283
     },
-    "messages": []
+    "messages": [
+      {
+        "gameid": "3402-4",
+        "time": 1480980215675,
+        "roundNum": 30,
+        "sender": "speaker",
+        "contents": "This was fun, if not quite lucrative.  Have a lovely rest of your day, dear, after you click about one lily below the bottommost point of the circle~~~ "
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480980239848,
+        "roundNum": 30,
+        "sender": "listener",
+        "contents": "woohooo done! good job describing"
+      },
+      {
+        "gameid": "3402-4",
+        "time": 1480980255063,
+        "roundNum": 30,
+        "sender": "speaker",
+        "contents": "Good job being patient with my novellas XD"
+      }
+    ]
   },
   {
     "gameid": "0242-1",

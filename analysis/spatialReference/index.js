@@ -56,15 +56,14 @@ dir.readFiles(CLICKED_OBJ_DIR,
           trim: true,
           auto_parse: true
         }, function(err, output) {
+          if (err) throw err;
+
           clickedObjJson = clickedObjJson.concat(output);
           next();
         });
     },
     function(err, files){
         if (err) throw err;
-      // // console.log('finished reading files:', files);
-
-      //   console.log(clickedObjJson);
 
         dir.readFiles(MESSAGE_DIR,
           function(err, content, next) {
@@ -74,15 +73,14 @@ dir.readFiles(CLICKED_OBJ_DIR,
                 trim: true,
                 auto_parse: true
               }, function(err, output) {
+                if (err) throw err;
+
                 messageJson = messageJson.concat(output);
                 next();
               });
           },
           function(err, files) {
             if (err) throw err;
-
-            messageJson = _.filter(messageJson, function(o) { return _.isObject(o) });
-            clickedObjJson = _.filter(clickedObjJson, function(o) { return _.isObject(o) });
 
             _.each(clickedObjJson, function(o) {
                 var messages = _.filter(messageJson, function(mo) {
