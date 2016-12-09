@@ -1,0 +1,59 @@
+var cityW = 600
+var cityH = 500
+
+var lilyPrior = function() {
+  var x = uniformDraw(_.range(cityW))
+  var y = uniformDraw(_.range(cityH))
+  return {x: x, y: y}
+}
+var blue = {
+  x: 90,
+  y: 75,
+  width: 176,
+  height: 251,
+  type: "rect"
+}
+
+var plaza = {
+  x: 487,
+  y: 150,
+  radius: 50,
+  type: "circle"
+}
+
+var red = {
+  x: 199,
+  y: 304,
+  width: 278,
+  height: 140,
+  type: "rect"
+}
+
+var testLily = {
+  x: 497,
+  y: 150
+}
+
+var P_s = function() {
+  return 1.0/cityW/cityH;
+}
+
+var deltaU = function(lily, object) {
+  if (object.type == "rect") {
+    
+    return ((object.x <= lily.x) && (lily.x <=(object.x + object.width)) &&
+          (object.y <= lily.y) && (lily.y <=(object.y + object.height)))
+  } else {
+    var xdist = (lily.x-object.x)*(lily.x-object.x)
+    var ydist = (lily.y-object.y)*(lily.y-object.y)
+    var dist = xdist + ydist    
+    return (dist <= ((object.radius)*(object.radius)))
+  }
+  
+}
+
+//console.log(deltaU(testLily, red))
+
+console.log(deltaU(testLily, plaza))
+//console.log(deltaU(testLily, blue))
+
