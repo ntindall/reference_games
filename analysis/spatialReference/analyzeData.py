@@ -10,7 +10,8 @@ count = 0
 #relevantTrials = []
 worlds = {}
 for trial in data:
-	trial_id = trial['world']['blue']['x']
+	print trial
+	trial_id = trial['world']
 	if (worlds.get(trial_id) == None):
 		worlds[trial_id] = [trial]
 	else:

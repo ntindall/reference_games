@@ -2,11 +2,25 @@ var cityW = 600
 var cityH = 500
 var epsilon = 20
 
+//random sample for lily
 var lilyPrior = function() {
   var x = uniformDraw(_.range(cityW))
   var y = uniformDraw(_.range(cityH))
   return {x: x, y: y}
 }
+
+//random sample for utterance
+var utterancePrior = function() {
+  var preps = ["inside", "justInside", "outside", "justOutside"]
+  var objects = ["blue", "red", "plaza"]
+  return {prep: preps[randomInteger(preps.length)], object: objects[randomInteger(objects.length)]}
+}
+
+// var statePrior = function() {
+//   //infer(enumerate)
+//   return 1.0/cityW/cityH;
+// }
+
 var blue = {
   x: 90,
   y: 75,
@@ -31,30 +45,113 @@ var red = {
 }
 
 var testLily = {
-  x: 497,
-  y: 1500
+  x: 90,
+  y: 76
 }
 
-var P_s = function() {
-  return 1.0/cityW/cityH;
+var distance = function(obj1, obj2) {
+  var xdist = obj1.x - obj2.x
+  var ydist = obj1.y - obj2.y
+  var dist = xdist*xdist + ydist*ydist
+  console.log(obj1.y, obj2.y)
+  console.log(ydist)
+  console.log(Math.sqrt(dist))
+  return Math.sqrt(dist)
 }
 
-var deltaU = function(lily, object) {
-  if (object.type == "rect") {
-    
-    return ((object.x <= lily.x) && (lily.x <=(object.x + object.width)) &&
-          (object.y <= lily.y) && (lily.y <=(object.y + object.height)))
+var insideRect = function(lily, object) {
+  return ((object.x <= lily.x) && (lily.x <=(object.x + object.width)) &&
+           (object.y <= lily.y) && (lily.y <=(object.y + object.height)))
+}
+
+var inside = function(utterance, lily) {
+  if (utterance.object === "red") {
+    return insideRect(lily, red)
+  } else if (utterance.object === "blue") {
+    return insideRect(lily, blue)
   } else {
-    var xdist = (lily.x-object.x)*(lily.x-object.x)
-    var ydist = (lily.y-object.y)*(lily.y-object.y)
-    var dist = xdist + ydist    
-    return (dist <= ((object.radius)*(object.radius)))
+    return distance(plaza, lily) <= plaza.radius
   }
-  
 }
 
+var justInside = function(utterance, lily) {
+  if (utterance.object === "plaza") {
+    var epsilon = plaza.radius/10.0
+    console.log(distance(plaza, lily))
+    return distance(plaza, lily) > plaza.radius - epsilon
+  } else if (utterance.object === "red") {
+    var epsilon = red.width/10.0
+    var smallRect = {x: red.x + epsilon, y: red.y + epsilon, width: red.width - 2*epsilon, height: red.height - 2*epsilon}
+    return inside(utterance, lily) && !insideRect(lily, smallRect)
+  } else {
+    var epsilon = blue.width/10.0
+    var smallRect = {x: blue.x + epsilon, y: blue.y + epsilon, width: blue.width - 2*epsilon, height: blue.height - 2*epsilon}
+    return inside(utterance, lily) && !insideRect(lily, smallRect)
+  }
+}
+
+var outside = function(utterance, lily) {
+  return !inside(utterance, lily)
+}
+
+var justOutside = function(utterance, lily) {
+  if (utterance.object === "plaza") {
+    var epsilon = plaza.radius/10.0
+    return (distance(plaza, lily) < plaza.radius + epsilon) && !inside(utterance, lily)
+  } else if (utterance.object === "red") {
+    var epsilon = red.width/10.0
+    var smallRect = {x: red.x - epsilon, y: red.y - epsilon, width: red.width + 2*epsilon, height: red.height + 2*epsilon}
+    return insideRect(lily, smallRect) && !inside(utterance, lily)
+  } else {
+    var epsilon = blue.width/10.0
+    var smallRect = {x: blue.x - epsilon, y: blue.y - epsilon, width: blue.width + 2*epsilon, height: blue.height + 2*epsilon}
+    return insideRect(lily, smallRect) && !inside(utterance, lily)
+  }
+
+}
+
+var meaning = function(utterance, lily) {
+  return utterance.prep === "inside" ? inside(utterance, lily) : 
+         utterance.prep === "justInside" ? justInside(utterance, lily) : 
+         utterance.prep === "outside" ? outside(utterance, lily) : 
+                                       justOutside(utterance, lily)
+}
+
+var literalListener = function(utterance) {
+  Infer({method:"enumerate"}, function() {
+    var world = lilyPrior();
+    var truthVal = meaning(utterance, world);
+    condition(truthVal === true)
+    return world
+  })
+}
+vis.table(literalListener({prep: "inside", object: "blue"}))
+// console.log(utterancePrior())
+// console.log(lilyPrior())
+// console.log(insideRect(testLily, red))
+//console.log(meaning({prep: "inside", object: "blue"}, testLily))
+//console.log(distance(testLily, plaza))
 
 
-console.log(deltaU(testLily, plaza)*P_s())
+//ps1: observe literal listener under 
+// observe(L0(utt), state)
+
+//console.log(deltaU(testLily, plaza)*P_s())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
