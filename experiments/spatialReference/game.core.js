@@ -25,10 +25,27 @@ if( typeof _ === 'undefined' ) {
     jsonfile = require('jsonfile')
 
     TRIALS_OBJECT_FROM_JSON = _.shuffle(require("../spatialReference/trials.json"));
+    DATA_VIZ_DATA = require('../../analysis/spatialReference/relevantExperimentalData.json');
     console.log(TRIALS_OBJECT_FROM_JSON);
     assert(_.isArray(TRIALS_OBJECT_FROM_JSON) && TRIALS_OBJECT_FROM_JSON.length == 50);
   }
   else throw 'mymodule requires underscore, see http://underscorejs.org';
+}
+
+var VIZ_SAMPLE = {};
+
+if (typeof DATA_VIZ_DATA != 'undefined') {
+  (function () {
+    var model = _.sample(DATA_VIZ_DATA);
+    VIZ_SAMPLE = model;
+    VIZ_SAMPLE.click = [ _.clone(model.click) ];
+
+    _.each(DATA_VIZ_DATA, function(trial) {
+     if (_.isEqual(trial.world, model.world)) {
+        VIZ_SAMPLE.click.concat(_.clone(trial.click));
+      }
+    });
+  })();
 }
 
 var WORLD_HEIGHT = 400;
@@ -154,7 +171,8 @@ game_core.prototype.advanceRound = function(delay) {
       });
       // Otherwise, get the preset list of tangrams for the new round
       localThis.roundNum += 1;
-      localThis.trialInfo = {currStim: localThis.trialList[localThis.roundNum]};
+      localThis.trialInfo = {currStim: VIZ_SAMPLE.world };
+      localThis.trialInfo.currStim.clicks = VIZ_SAMPLE.click;
       console.log(localThis.trialInfo);
       localThis.server_send_update();
     }

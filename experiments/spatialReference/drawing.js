@@ -53,18 +53,28 @@ var drawSectors = function(game) {
   drawRect(game.currStim.blue, 'blue');
 };
 
+var drawClicks = function(game, clicks) {
+  for (var z = 0; z < clicks.length; z++) {
+    drawPoint(game, clicks[z].x, clicks[z].y, 'yellow');
+  }
+}
+
 var drawLily = function(game, x, y) {
   var img = new Image;
   img.onload = function() {
     game.ctx.drawImage(img, x-20, y-20); //adjust for size of lily
+
+    drawClicks(game, game.currStim.clicks);
   }
+
   img.src = "lotus.png"
+  //drawPoint(game, x, y, '#FF7FF4');
 }
 
-var drawPoint = function(game, x, y) {
+var drawPoint = function(game, x, y, fill) {
   game.ctx.beginPath();
-  game.ctx.rect(x - 5, y - 5, 10, 10);
-  game.ctx.fillStyle = 'yellow';
+  game.ctx.rect(x - 4, y - 4, 8, 8);
+  game.ctx.fillStyle = fill;
   game.ctx.fill();
   game.ctx.stroke();
 }
@@ -100,7 +110,7 @@ var drawScreen = function(game, player) {
 
       if (game.my_role === game.playerRoleNames.role1) {
         if (game.roundNum <= 2) { //trial only
-          drawTarget(game, game.currStim.lily.x, game.currStim.lily.y);
+         // drawTarget(game, game.currStim.lily.x, game.currStim.lily.y);
         }
         drawLily(game, game.currStim.lily.x, game.currStim.lily.y);
       }
