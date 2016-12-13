@@ -1,5 +1,7 @@
-var cityW = 600
-var cityH = 500
+var SCALER = 10.0
+
+var cityW = 600/SCALER
+var cityH = 500/SCALER
 var epsilon = 20
 
 //random sample for lily
@@ -22,25 +24,25 @@ var utterancePrior = function() {
 // }
 
 var blue = {
-  x: 90,
-  y: 75,
-  width: 176,
-  height: 251,
+  x: 90/SCALER,
+  y: 75/SCALER,
+  width: 176/SCALER,
+  height: 251/SCALER,
   type: "rect"
 }
 
 var plaza = {
-  x: 487,
-  y: 150,
-  radius: 50,
+  x: 487/SCALER,
+  y: 150/SCALER,
+  radius: 50/SCALER,
   type: "circle"
 }
 
 var red = {
-  x: 199,
-  y: 304,
-  width: 278,
-  height: 140,
+  x: 199/SCALER,
+  y: 304/SCALER,
+  width: 278/SCALER,
+  height: 140/SCALER,
   type: "rect"
 }
 
@@ -118,14 +120,32 @@ var meaning = function(utterance, lily) {
 }
 
 var literalListener = function(utterance) {
-  Infer({method:"enumerate"}, function() {
+  Infer({method:"rejection", samples:100, model: function() {
     var world = lilyPrior();
     var truthVal = meaning(utterance, world);
     condition(truthVal === true)
     return world
-  })
+  }})
 }
-vis.table(literalListener({prep: "inside", object: "blue"}))
+
+var pragmaticSpeaker = function(world) {
+  Infer({method: "rejection", samples:100, model: function() {
+    var utterance = utterancePrior();
+    factor(literalListener(utterance).score(world));
+    return utterance;
+  }})
+}
+
+var pragmaticListener = function(utterance) {
+  Infer({method: "rejection", samples:100, model: function() {
+    var world = lilyPrior();
+    observe(pragmaticSpeaker(world), utterance);
+    return world;
+  }});
+}
+console.log(sample(pragmaticListener(utterancePrior())))
+
+//viz.table(literalListener({prep: "inside", object: "blue"}))
 // console.log(utterancePrior())
 // console.log(lilyPrior())
 // console.log(insideRect(testLily, red))
@@ -137,20 +157,6 @@ vis.table(literalListener({prep: "inside", object: "blue"}))
 // observe(L0(utt), state)
 
 //console.log(deltaU(testLily, plaza)*P_s())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
