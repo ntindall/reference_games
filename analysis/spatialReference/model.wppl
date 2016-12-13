@@ -1,4 +1,4 @@
-var SCALER = 10.0
+var SCALER = 10
 
 var cityW = 600/SCALER
 var cityH = 500/SCALER
@@ -47,8 +47,13 @@ var red = {
 }
 
 var testLily = {
-  x: 90,
-  y: 76
+  x: 150/SCALER,
+  y: 250/SCALER
+}
+
+var testUtterance = {
+  prep: "inside",
+  object: "plaza"
 }
 
 var distance = function(obj1, obj2) {
@@ -79,8 +84,8 @@ var inside = function(utterance, lily) {
 var justInside = function(utterance, lily) {
   if (utterance.object === "plaza") {
     var epsilon = plaza.radius/10.0
-    console.log(distance(plaza, lily))
-    return distance(plaza, lily) > plaza.radius - epsilon
+    
+    return (distance(plaza, lily) > plaza.radius - epsilon) && (distance(plaza, lily) <= plaza.radius)
   } else if (utterance.object === "red") {
     var epsilon = red.width/10.0
     var smallRect = {x: red.x + epsilon, y: red.y + epsilon, width: red.width - 2*epsilon, height: red.height - 2*epsilon}
@@ -102,12 +107,12 @@ var justOutside = function(utterance, lily) {
     return (distance(plaza, lily) < plaza.radius + epsilon) && !inside(utterance, lily)
   } else if (utterance.object === "red") {
     var epsilon = red.width/10.0
-    var smallRect = {x: red.x - epsilon, y: red.y - epsilon, width: red.width + 2*epsilon, height: red.height + 2*epsilon}
-    return insideRect(lily, smallRect) && !inside(utterance, lily)
+    var bigRect = {x: red.x - epsilon, y: red.y - epsilon, width: red.width + 2*epsilon, height: red.height + 2*epsilon}
+    return insideRect(lily, bigRect) && !inside(utterance, lily)
   } else {
     var epsilon = blue.width/10.0
-    var smallRect = {x: blue.x - epsilon, y: blue.y - epsilon, width: blue.width + 2*epsilon, height: blue.height + 2*epsilon}
-    return insideRect(lily, smallRect) && !inside(utterance, lily)
+    var bigRect = {x: blue.x - epsilon, y: blue.y - epsilon, width: blue.width + 2*epsilon, height: blue.height + 2*epsilon}
+    return insideRect(lily, bigRect) && !inside(utterance, lily)
   }
 
 }
@@ -119,32 +124,77 @@ var meaning = function(utterance, lily) {
                                        justOutside(utterance, lily)
 }
 
-var literalListener = function(utterance) {
-  Infer({method:"rejection", samples:100, model: function() {
+var literalListener = cache(function(utterance) {
+  Infer({method:"enumerate", model: function() {
     var world = lilyPrior();
     var truthVal = meaning(utterance, world);
     condition(truthVal === true)
     return world
-  }})
-}
+  }
+})
+})
 
-var pragmaticSpeaker = function(world) {
-  Infer({method: "rejection", samples:100, model: function() {
+
+var pragmaticSpeaker = cache(function(world) {
+  Infer({method: "enumerate", model: function() {
     var utterance = utterancePrior();
     factor(literalListener(utterance).score(world));
     return utterance;
   }})
-}
+})
 
 var pragmaticListener = function(utterance) {
-  Infer({method: "rejection", samples:100, model: function() {
+  Infer({method: "enumerate", model: function() {
     var world = lilyPrior();
     observe(pragmaticSpeaker(world), utterance);
     return world;
   }});
 }
-console.log(sample(pragmaticListener(utterancePrior())))
 
+// var utt = utterancePrior()
+// var world = lilyPrior()
+// //var world = lilyPrior()
+// var spkr = pragmaticSpeaker(testLily)
+// console.log(sample(spkr))
+// console.log(sample(spkr))
+// console.log(sample(spkr))
+// console.log(sample(spkr))
+// console.log(sample(spkr))
+// console.log(sample(spkr))
+// console.log(world)
+
+
+var listener = pragmaticListener(testUtterance)
+// console.log(inside(testUtterance, sample(listener)))
+// console.log(inside(testUtterance, sample(listener)))
+// console.log(inside(testUtterance, sample(listener)))
+// console.log(inside(testUtterance, sample(listener)))
+// console.log(inside(testUtterance, sample(listener)))
+// console.log(inside(testUtterance, sample(listener)))
+// console.log(inside(testUtterance, sample(listener)))
+// console.log(inside(testUtterance, sample(listener)))
+
+var adjust_sample = function(sample) {
+  var x = 10*sample.x + uniformDraw(_.range(-5, 5))
+  var y = 10*sample.y + uniformDraw(_.range(-5, 5))
+  return {x: x, y: y}
+}
+
+console.log(adjust_sample(sample(listener)))
+console.log(adjust_sample(sample(listener)))
+console.log(adjust_sample(sample(listener)))
+console.log(adjust_sample(sample(listener)))
+console.log(adjust_sample(sample(listener)))
+console.log(adjust_sample(sample(listener)))
+console.log(adjust_sample(sample(listener)))
+console.log(adjust_sample(sample(listener)))
+console.log(adjust_sample(sample(listener)))
+
+
+//console.log(literalListener(utt).score(world))
+//console.log(sample(pragmaticListener(utterancePrior())))
+//
+//pragmaticSpeaker(lilyPrior())
 //viz.table(literalListener({prep: "inside", object: "blue"}))
 // console.log(utterancePrior())
 // console.log(lilyPrior())
