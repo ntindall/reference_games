@@ -25,7 +25,7 @@ if( typeof _ === 'undefined' ) {
     jsonfile = require('jsonfile')
 
     TRIALS_OBJECT_FROM_JSON = _.shuffle(require("../spatialReference/trials.json"));
-    DATA_VIZ_DATA = require('../../analysis/spatialReference/joinedExperimentalData.json');
+    DATA_VIZ_DATA = require('../../analysis/spatialReference/inside_blue.json'); //require('../../analysis/spatialReference/joinedExperimentalData.json');
     console.log(TRIALS_OBJECT_FROM_JSON);
     assert(_.isArray(TRIALS_OBJECT_FROM_JSON) && TRIALS_OBJECT_FROM_JSON.length == 50);
   }
@@ -38,14 +38,6 @@ if (typeof DATA_VIZ_DATA != 'undefined') {
   (function () {
     var model = _.sample(DATA_VIZ_DATA);
     VIZ_SAMPLE = model;
-    VIZ_SAMPLE.click = [];
-
-    _.each(DATA_VIZ_DATA, function(trial) {
-     if (_.isEqual(trial.world, model.world)) {
-        VIZ_SAMPLE.click.push(_.clone(trial.click));
-        _.each(trial.messages, function(m) { console.log(m) });
-      }
-    });
   })();
 }
 
